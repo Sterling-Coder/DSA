@@ -1,8 +1,9 @@
+/*      AMAZON
+  Qn. Given a "2 * n" board and tiles of size "2 * 1", count the number of
+  ways to tile teh given board using the 2 * 1 tiles. (A tile can either 
+  be placed horizontally or virtically) */
+
 public class Tiling {  
-    /* AMAZON
-       Qn. Given a "2 * n" board and tiles of size "2 * 1", count the number of
-       ways to tile teh given board using the 2 * 1 tiles.
-       (A tile can either be placed horizontally or virtically) */
     satic int TilingWay(int n) {
         if (n == 0 || n == 1) {
             return 1;
