@@ -9,6 +9,6 @@ public class Fibonacci {
     }
     public static void main(String[] args) {
         int n = 25;
-        FibonacciNum(n); // SC-> O(n)  TC->  O(2^n)
+        System.out.println(FibonacciNum(n)); // SC-> O(n)  TC->  O(2^n)
     }
 }
