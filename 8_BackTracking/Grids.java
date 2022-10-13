@@ -6,14 +6,14 @@ public class Grids {
         } else if(i == n || j == m){ // corners
             return 0;
         }
-        //Kaam
+        //Recursion
         int w1 = ways(i+1, j, n, m);
         int w2 = ways(i, j+1, n, m);
-        return w1 + w2;
+        return w1 + w2; // Total ways
     }
     public static void main(String[] args) {
-        int n = 1000; 
-        int m = 1000;
-        System.out.println(ways(0,0,  n, m));
+        int n = 8; 
+        int m = 8;
+        System.out.println(ways(0, 0, n, m));
     }
 }
